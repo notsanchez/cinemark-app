@@ -1,0 +1,121 @@
+.login-container{
+    background: linear-gradient(var(--dark-red), var(--black) 40%);
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+}
+
+/* Login Block */
+
+.login-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10rem 0;
+    border-radius: 15px;
+    width: 27rem;
+    height: auto;
+}
+
+.login-block form{
+    margin: .5rem 0;
+    background: var(--dark-gray);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.login-block span{
+    color: var(--white);
+    font-size: 1rem;
+    margin: auto;
+    letter-spacing: .1rem;
+    margin: .5rem 0;
+}
+
+.login-block input{
+    color: var(--white);
+    background: var(--dark-gray-input);
+    font-size: 1rem;
+    width: 100%;
+    border: 0 none transparent;
+    border-radius: 6px;
+    padding: .5rem;
+}
+
+.login-block input:focus{
+    outline: none;
+}
+
+.login-block input[type=submit]{
+    color: var(--white);
+    background: var(--dark-red);
+    margin: 1rem 0
+}
+
+.login-block input[type=submit]:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Form */
+
+.form-block{
+    margin: 1rem 0;
+}
+
+/* Inputs */
+
+.login-block a{
+    color: var(--dark-red);
+    text-decoration: none;
+}
+
+.password-block a{
+    margin: auto 0;
+    margin-left: auto;
+}
+
+.username-block-text{
+    display: flex;
+}
+
+.password-block-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Submit */
+
+.ask-register-block{
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+
+.ask-register-block-content{
+    display: flex;
+    padding: 1.5rem 1rem;
+    justify-content: center;
+}
+
+.ask-register-block-content span,
+.ask-register-block-content a{
+    margin: auto 0;
+    padding: 0 .5rem;
+}
+
+.ask-register-block-content a{
+    letter-spacing: .1rem;
+}
+
+/* About Us Block */
+
+.about-us-block{
+    display: flex;
+    margin: auto;
+    padding: 1rem .5rem;
+    gap: 2rem;
+}
+
+.about-us-block a{
+    color: var(--dark-red);
+}

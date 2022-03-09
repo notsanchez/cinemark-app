@@ -1,0 +1,111 @@
+.register-container{
+    background: linear-gradient(var(--dark-red), var(--black) 40%);
+    display: flex;
+    justify-content: left;
+    padding-top: 96px;
+}
+
+/* Register Block */
+
+.register-block{
+    display: grid;
+    padding: 2rem;
+    width: 100%;
+    grid-template-columns: 50fr 50fr;
+}
+
+.register-container h3{
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    letter-spacing: .1rem;
+}
+
+.register-container form{
+    background: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem 4rem;
+    border-radius: 15px;
+    height: auto;
+}
+
+.register-flex-2-col{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.register-terms-flex{
+    display: flex;
+    padding: .5rem 0;
+}
+
+/* Remove Side Arrows From Type Number */
+/* Chrome, Safari, Edge, Opera */
+.register-container input::-webkit-outer-spin-button,
+.register-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* Firefox */
+.register-container input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.register-block .default-input{
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 1rem 0;
+    letter-spacing: .1rem;
+    color: var(--white);
+    width: 100%;
+}
+
+select.default-input option{
+    background: var(--dark-gray);
+}
+
+.register-block .default-input:focus{
+    outline: none;
+}
+
+/* Default Input Backgrounds */
+
+.input-dark{
+    background: transparent;
+    border: 1px solid var(--dark-gray-input);
+}
+
+.input-light{
+    background: var(--dark-gray-input);
+    border: 1px solid transparent;
+}
+
+/* Submit Container */
+
+.submit-container{
+    display: flex;
+    justify-content: right;
+}
+
+.submit-container input[type='submit']{
+    border-radius: 5px;
+    background: var(--dark-gray-input);
+    padding: .5rem 2rem;
+    margin: 1rem 0;
+    letter-spacing: .1rem;
+    border: 1px solid transparent;
+    color: var(--white);
+}
+
+/* Checkbox Container */
+
+.checkbox-container label{
+    display: flex;
+    margin: auto 0;
+    font-size: .6rem;
+    color: var(--white);
+    padding: 0 .5rem;
+}

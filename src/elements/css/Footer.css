@@ -34,6 +34,13 @@ footer .register-notification button:hover{
     background: var(--dark-gray);
 }
 
+.footer-container hr{
+    margin: auto;
+    width: 80%;
+}
+
+/* Social Medias - 1st row */
+
 .social-medias{
     display: flex;
     justify-content: center;
@@ -61,10 +68,7 @@ footer .register-notification button:hover{
     padding: .1rem .5rem;
 }
 
-hr{
-    margin: auto;
-    width: 80%;
-}
+/* About us - 2nd row */
 
 .about-us-cols{
     padding: .5rem 1.5rem;
@@ -87,6 +91,8 @@ hr{
     font-size: .7rem;
     padding: .3rem 0;
 }
+
+/* Logo - 3rd row */
 
 .logo-container{
     display: flex;

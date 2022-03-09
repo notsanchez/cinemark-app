@@ -1,3 +1,8 @@
+.tickets-menu-container{
+    background: linear-gradient(var(--dark-red), var(--black));
+    padding: .5rem 8%;
+}
+
 .trailer-container h3{
     margin: 1rem 0;
     color: var(--white);
@@ -11,10 +16,20 @@
     justify-content: center;
 }
 
-.tickets-menu-container{
-    background: linear-gradient(var(--dark-red), #000000);
-    padding: .5rem 8%;
+/* Tickets Container */
+
+.tickets-container{
+    margin: 4rem 0;
 }
+
+.tickets-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* State */
 
 .state-container{
     padding: .5rem;
@@ -29,6 +44,8 @@
     color: var(--white);
 }
 
+/* Configs Container */
+
 .configs-container{
     display: flex;
     flex-direction: row;
@@ -40,16 +57,7 @@
     letter-spacing: .1rem;
 }
 
-.tickets-container{
-    margin: 4rem 0;
-}
-
-.tickets-container ul{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    list-style: none;
-}
+/* Day Container */
 
 .day-container li{
     margin: auto;
@@ -69,16 +77,18 @@
     letter-spacing: .5rem;
 }
 
+.day-container{
+    margin: 1rem 0;
+    padding: .5rem 0;
+}
+
+/* Day Container Defaults */
+
 .default-list{
     background-color: var(--dark-gray);
     border: 4px solid transparent;
     border-radius: 15px;
     margin: 1rem 0;
-}
-
-.day-container{
-    margin: 1rem 0;
-    padding: .5rem 0;
 }
 
 #selected{
@@ -96,6 +106,8 @@
     grid-template-columns: 70fr 30fr;
 }
 
+/* City Container */
+
 .city-container{
     padding: 0 1rem;
     margin: 1rem 0;
@@ -108,23 +120,13 @@
     padding: 0 1rem;
 }
 
-/* Room Block */
+/* Rooms Container - Left Side */
 
 .room-block{
     border-radius: 15px;
     box-shadow: 20px 20px 40px black;
     padding: auto;
     margin: 1rem 0;
-}
-
-.top-room-block{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.bottom-room-block{
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 .room-row{
@@ -137,21 +139,9 @@
     display: flex;
 }
 
-.row-side{
-    display: flex;
-}
-
 .room-row-side .row-right span{
     border: 2px solid var(--white);
     border-radius: 15px;
-}
-
-.div-dark{
-    background-color: var(--dark-gray);
-}
-
-.div-light{
-    background-color: var(--dark-red);
 }
 
 .room-row .room-state{
@@ -160,34 +150,6 @@
     padding: .2rem .5rem;
     display: inline-block;
     border-radius: 15px;
-}
-
-.state-green{
-    background: var(--green-room);
-}
-
-.state-yellow{
-    background: var(--yellow-room);
-}
-
-.state-red{
-    background: var(--red-room);
-}
-
-.movie-type-light{
-    background: var(--light-gray-type);
-}
-
-.movie-type-dark{
-    background: var(--dark-gray-type);
-}
-
-.lang-type-light{
-    background: var(--light-brown-lang);
-}
-
-.lang-type-dark{
-    background: var(--dark-brown-lang);
 }
 
 .room-row .row-left span:not(.room-state){
@@ -227,7 +189,59 @@
     color: var(--white);
 }
 
+/* Room Block - Border Radius */
+
+.top-room-block{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom-room-block{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Rooms Container - Right Side */
+
 .side-container img{
     width: 100%;
     box-shadow: 20px 20px 40px black;
+}
+
+/* Room Default Colors */
+
+.div-dark{
+    background-color: var(--dark-gray);
+}
+
+.div-light{
+    background-color: var(--dark-red);
+}
+
+.state-green{
+    background: var(--green-room);
+}
+
+.state-yellow{
+    background: var(--yellow-room);
+}
+
+.state-red{
+    background: var(--red-room);
+}
+
+.movie-type-light{
+    background: var(--light-gray-type);
+}
+
+.movie-type-dark{
+    background: var(--dark-gray-type);
+}
+
+.lang-type-light{
+    background: var(--light-brown-lang);
+}
+
+.lang-type-dark{
+    background: var(--dark-brown-lang);
 }

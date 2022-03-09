@@ -3,12 +3,6 @@
     src: url('../../../public/fonts/Cinemark.ttf');
 }
 
-@font-face {
-    font-family: 'lato';
-    font-weight: bolder;
-    src: url('../../../public/fonts/Lato-Regular.ttf');
-}
-
 html{
     font-size: 16px;
 }
@@ -55,6 +49,7 @@ header h1{
     letter-spacing: .6rem;
 }
 
+/* Link */
 header a{
     display: flex;
     color: var(--white);
