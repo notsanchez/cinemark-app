@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'cinemark';
+    src: url('../../../public/fonts/Cinemark.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: bolder;
+    src: url('../../../public/fonts/Lato-Regular.ttf');
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background: var(--dark-red);
+}
+
+img {
+    pointer-events: none;
+}
+
+header{
+    position: fixed;
+    background: rgb(91, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: 20fr 80fr 20fr;
+    height: 96px;
+    padding: 0 6%;
+}
+
+header .navbar{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
+
+header .navbar-right{
+    gap: 2rem;
+}
+
+header h1{
+    color: var(--white);
+    font-family: 'cinemark';
+    padding: .5rem;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    letter-spacing: .6rem;
+}
+
+header a{
+    display: flex;
+    color: var(--white);
+    text-decoration: none;
+    margin: auto;
+}
+
+.navbar span{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar img{
+    filter: invert(99%) sepia(0%) saturate(5239%) hue-rotate(306deg) brightness(116%) contrast(80%);
+    display: flex;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+}

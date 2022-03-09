@@ -1,0 +1,233 @@
+.trailer-container h3{
+    margin: 1rem 0;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.trailer-container .trailer{
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.tickets-menu-container{
+    background: linear-gradient(var(--dark-red), #000000);
+    padding: .5rem 8%;
+}
+
+.state-container{
+    padding: .5rem;
+}
+
+.state-container h4{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.state-container p{
+    color: var(--white);
+}
+
+.configs-container{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.configs-container a{
+    color: var(--light-gray);
+    letter-spacing: .1rem;
+}
+
+.tickets-container{
+    margin: 4rem 0;
+}
+
+.tickets-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+
+.day-container li{
+    margin: auto;
+    color: var(--white);
+    border-radius: 15px;
+}
+
+.day-container li:hover{
+    transform: scale(0.9);
+}
+
+.day-container a{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+}
+
+.default-list{
+    background-color: var(--dark-gray);
+    border: 4px solid transparent;
+    border-radius: 15px;
+    margin: 1rem 0;
+}
+
+.day-container{
+    margin: 1rem 0;
+    padding: .5rem 0;
+}
+
+#selected{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Sessions Container */
+
+.sessions-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 70fr 30fr;
+}
+
+.city-container{
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+
+.city-container h4{
+    color: var(--white);
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    padding: 0 1rem;
+}
+
+/* Room Block */
+
+.room-block{
+    border-radius: 15px;
+    box-shadow: 20px 20px 40px black;
+    padding: auto;
+    margin: 1rem 0;
+}
+
+.top-room-block{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom-room-block{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.room-row{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.room-row-side{
+    display: flex;
+}
+
+.row-side{
+    display: flex;
+}
+
+.room-row-side .row-right span{
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+
+.div-dark{
+    background-color: var(--dark-gray);
+}
+
+.div-light{
+    background-color: var(--dark-red);
+}
+
+.room-row .room-state{
+    height: 3rem;
+    width: .5rem;
+    padding: .2rem .5rem;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.state-green{
+    background: var(--green-room);
+}
+
+.state-yellow{
+    background: var(--yellow-room);
+}
+
+.state-red{
+    background: var(--red-room);
+}
+
+.movie-type-light{
+    background: var(--light-gray-type);
+}
+
+.movie-type-dark{
+    background: var(--dark-gray-type);
+}
+
+.lang-type-light{
+    background: var(--light-brown-lang);
+}
+
+.lang-type-dark{
+    background: var(--dark-brown-lang);
+}
+
+.room-row .row-left span:not(.room-state){
+    font-size: 1.5rem;
+    padding: .2rem 2rem;
+    margin: auto 0;
+    color: var(--white);
+}
+
+.room-row button{
+    border: 2px solid var(--white);
+    border-radius: 15px;
+    background: transparent;
+    padding: .5rem 1rem;
+    margin: auto 1rem;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.room-row button:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.room-row .border-type{
+    padding: .5rem 1rem;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.movie-type, .lang-type{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    margin: auto 1rem;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.side-container img{
+    width: 100%;
+    box-shadow: 20px 20px 40px black;
+}

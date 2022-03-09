@@ -1,0 +1,74 @@
+.container{
+    z-index: 0;
+    position: relative;
+}
+
+.container::before{
+    background: linear-gradient(var(--dark-red), #000000);
+    content:"";
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 18.5vw; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+}
+
+.one{
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    padding: 2.5rem 8%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.poster-container{
+    margin: auto;
+}
+
+.poster img{
+    z-index: 1;
+    width: 15vw;
+    box-shadow: 15px 15px 40px black;
+}
+
+.title-container h2{
+    color: var(--white);
+    font-size: 3.5rem;
+    text-shadow: 0 6px 6px #000000;
+    margin: 1rem 0;
+}
+
+.title-container{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    margin: auto;
+    padding: 0 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.title-bottom img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: .5rem;
+}
+
+.title-bottom{
+    display: flex;
+    gap: 1.7rem;
+}
+
+.title-bottom .border-text{
+    color: var(--white);
+    font-size: 1.5rem;
+    text-align: center;
+    border: 4px solid var(--white);
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: .8rem 2rem;
+    margin-top: .5rem; 
+}

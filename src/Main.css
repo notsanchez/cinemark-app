@@ -1,0 +1,22 @@
+:root{
+    --dark-red: #5B0000;
+    --white: #e5e5e5;
+    --black-red: #090000;
+    --dark-gray: #101010;
+    --light-gray: #707070;
+    --green-room: #007d08;
+    --yellow-room: #bc8400;
+    --red-room: #9f0000;
+    --light-brown-lang: #211500;
+    --dark-brown-lang: #1b1500;
+    --dark-gray-type: #4f4f4f;
+    --light-gray-type: #554f4f;
+}
+
+*{
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'lato';
+}
