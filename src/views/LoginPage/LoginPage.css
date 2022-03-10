@@ -48,7 +48,7 @@
 
 .login-block input[type=submit]{
     color: var(--white);
-    background: var(--dark-red);
+    background: var(--login-dark-red);
     margin: 1rem 0
 }
 

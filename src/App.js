@@ -4,7 +4,9 @@ import LoginPage from "./views/LoginPage/LoginPage"
 import RegisterPage from "./views/RegisterPage/RegisterPage"
 import Header from "./elements/js/Header"
 import Footer from "./elements/js/Footer"
+import "./firebase"
 import './Main.css'
+
 
 
 function App() {

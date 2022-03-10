@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header>
         <div className="navbar navbar-left">
-            <Link to="/" id="menu-button"><img src="./img/menu.svg" alt="Menu button"></img></Link>
+            <Link to="/movie" id="menu-button"><img src="./img/menu.svg" alt="Menu button"></img></Link>
         </div>
         <Link to="/"><h1>CINEMARK</h1></Link>
         <div className="navbar navbar-right">
