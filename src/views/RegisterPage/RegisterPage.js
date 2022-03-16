@@ -1,5 +1,7 @@
 import React from 'react'
 import './RegisterPage.css'
+import CPFInput from './Inputs/CPF_Input'
+import TEL_Input from './Inputs/TEL_Input'
 
 export default function RegisterPage() {
   return (
@@ -10,8 +12,8 @@ export default function RegisterPage() {
                 <input className='default-input input-dark' name='name' type="text" placeholder='NOME COMPLETO' required></input>
                 <input className='default-input input-light' name='nickname' type="text" placeholder='COMO GOSTARIA DE SER CHAMADO?' required></input>
                 <div className='register-flex-2-col id-phone-container'>
-                    <input className='default-input input-dark' name='id' type="number" placeholder='CPF' required></input>
-                    <input className='default-input input-dark' name='phone' type="number" placeholder='CELULAR'></input>
+                    <CPFInput/>
+                    <TEL_Input/>
                 </div>
                 <div className='register-flex-2-col gender-birthday-container'>
                     <select className='default-input input-light' name='gender' required>

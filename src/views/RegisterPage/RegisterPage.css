@@ -91,6 +91,7 @@ select.default-input option{
 }
 
 .submit-container input[type='submit']{
+    cursor: pointer;
     border-radius: 5px;
     background: var(--dark-gray-input);
     padding: .5rem 2rem;
@@ -98,6 +99,13 @@ select.default-input option{
     letter-spacing: .1rem;
     border: 1px solid transparent;
     color: var(--white);
+    transition: all 0.2s;
+}
+
+.submit-container input:hover{
+    background: #1f1f1f;
+    transform: scale(1.05);
+
 }
 
 /* Checkbox Container */
